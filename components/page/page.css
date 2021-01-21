@@ -1,6 +1,8 @@
 .block-divider {
+    margin: 0;
     height: 1px;
     background-color: #DDE2E5;
+    border-style: none;
 }
 
 .page-header {

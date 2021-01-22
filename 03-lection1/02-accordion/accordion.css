@@ -1,1 +1,28 @@
 /* Стилизация аккордеона */
+.accordion {
+    box-sizing: border-box;
+    padding: 24px 32px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.accordion[open] {
+    padding-bottom: 8px;
+}
+
+.accordion__summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion__summary {
+    display: block;
+    color: #212429;
+    list-style-type: none; /* To hide details-marker in Firefox */
+}
+
+.accordion__body {
+    color: #495057;
+}

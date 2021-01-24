@@ -1,10 +1,10 @@
 .page-header {
-    padding: 0 160px;
     color: #212429;
     background-color: #fff;
 }
 
 .page-header__title {
+    padding: 0 160px;
     font-size: 50px;
     font-weight: 500;
     line-height: 1.3;

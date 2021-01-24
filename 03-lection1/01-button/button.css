@@ -23,44 +23,44 @@
 }
 
 .button_primary {
-    background-color: #4263EB;
-    color: #fff;
+    background-color: var(--accent-primary);
+    color: var(--main);
     transition: background 200ms ease-in-out;
 }
 
 .button_primary:hover {
-    background-color: #2342C0;
+    background-color: var(--accent-primary-darken1);
 }
 
 .button_primary:disabled {
-    background-color: #4263EB;
+    background-color: var(--accent-primary);
 }
 
 .button_secondary {
-    background-color: #7048E8;
-    color: #fff;
+    background-color: var(--accent-secondary);
+    color: var(--main);
     transition: background 200ms ease-in-out;
 }
 
 .button_secondary:hover {
-    background-color: #5028C6;
+    background-color: var(--accent-secondary-darken1);
 }
 
 .button_secondary :disabled{
-    background-color: #fff;
+    background-color: var(--main);
 }
 
 .button_alternate {
-    background-color: #fff;
-    color: #495057;
-    border: 1px solid #ACB5BD;
+    background-color: var(--main);
+    color: var(--bg-secondary-darken4);
+    border: 1px solid var(--bg-secondary-darken3);
     transition: border-color 200ms ease-in-out;
 }
 
 .button_alternate:hover {
-    border-color: #212429;
+    border-color: var(--dark-primary);
 }
 
 .button_alternate :disabled{
-    background-color: #fff;
+    background-color: var(--main);
 }

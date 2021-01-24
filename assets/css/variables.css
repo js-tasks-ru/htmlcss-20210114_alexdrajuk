@@ -1,0 +1,16 @@
+:root {
+    --main: #fff;
+    --dark-primary: #212429;
+
+    --accent-primary: #4263EB;
+    --accent-primary-darken1: #2342C0;
+    
+    --accent-secondary: #7048E8;
+    --accent-secondary-darken1: #5028C6;
+
+    --bg-secondary: #F8F9FA;
+    --bg-secondary-darken1: #F9FAFC;
+    --bg-secondary-darken2: #DDE2E5;
+    --bg-secondary-darken3: #ACB5BD;
+    --bg-secondary-darken4: #495057;
+}

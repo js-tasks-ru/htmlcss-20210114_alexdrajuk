@@ -1,6 +1,6 @@
 .page-header {
-    color: #212429;
-    background-color: #fff;
+    color: var(--dark-primary);
+    background-color: var(--main);
 }
 
 .page-header__title {

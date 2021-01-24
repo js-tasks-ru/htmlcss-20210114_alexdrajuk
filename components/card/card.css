@@ -8,7 +8,7 @@
     margin-bottom: 30px;
     padding: 30px 25px;
     border-radius: 12px;
-    background: #fff;
+    background: var(--main);
     box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
     text-decoration: none;
 }
@@ -18,5 +18,5 @@
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-    color: #212429;
+    color: var(--dark-primary);
 }

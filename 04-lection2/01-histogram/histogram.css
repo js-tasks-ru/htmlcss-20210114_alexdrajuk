@@ -9,11 +9,20 @@
     line-height: 1.2;
 }
 
+.histogram_preview {
+    margin-top: 50px;
+    padding: 20px;
+}
+
 .histogram__header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 40px;
+}
+
+.histogram__header_preview {
+    margin-bottom: 25px;
 }
 
 .histogram__title {
@@ -38,6 +47,10 @@
     height: 50px;
     align-items: flex-end;
     overflow: hidden;
+}
+
+.histogram__bars_preview{
+    height: 40px;
 }
 
 .histogram__bar {

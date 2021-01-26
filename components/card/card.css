@@ -13,6 +13,19 @@
     text-decoration: none;
 }
 
+.card_histogram .histogram {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.card_histogram .histogram__header {
+    margin-bottom: 25px;
+}
+
+.histogram__header_preview {
+    margin-bottom: 25px;
+}
+
 .card__title {
     font-size: 21px;
     font-weight: 500;

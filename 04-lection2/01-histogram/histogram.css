@@ -9,20 +9,11 @@
     line-height: 1.2;
 }
 
-.histogram_preview {
-    margin-top: 50px;
-    padding: 20px;
-}
-
 .histogram__header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 40px;
-}
-
-.histogram__header_preview {
-    margin-bottom: 25px;
 }
 
 .histogram__title {
@@ -36,7 +27,6 @@
 }
 
 .histogram__more {
-    display: inline-block;
     color: var(--accent-primary);
     text-decoration: none;
     line-height: 1.5;

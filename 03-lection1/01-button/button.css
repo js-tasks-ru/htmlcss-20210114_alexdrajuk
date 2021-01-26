@@ -46,7 +46,7 @@
     background-color: var(--accent-secondary-darken1);
 }
 
-.button_secondary :disabled{
+.button_secondary:disabled {
     background-color: var(--main);
 }
 
@@ -61,6 +61,6 @@
     border-color: var(--dark-primary);
 }
 
-.button_alternate :disabled{
+.button_alternate:disabled {
     background-color: var(--main);
 }

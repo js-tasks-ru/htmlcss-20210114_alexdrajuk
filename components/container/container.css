@@ -2,10 +2,3 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-
-.container-centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}

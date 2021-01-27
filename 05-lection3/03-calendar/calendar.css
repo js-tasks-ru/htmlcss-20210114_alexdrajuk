@@ -1,7 +1,7 @@
 .calendar {
     padding: 26px;
     color: var(--dark-primary);
-    border: 1px solid var(--bg-secondary-darken3);
+    border: 1px solid var(--main-secondary-darken3);
     border-radius: 8px;
 }
 
@@ -23,7 +23,7 @@
     justify-content: center;
     font-size: 16px;
     line-height: 1.4;
-    color: var(--bg-secondary-darken3);
+    color: var(--main-secondary-darken3);
 }
 
 .calendar__dates {
@@ -34,7 +34,6 @@
 
 .calendar__dates::before {
     content: '';
-    width: 0;
     padding-bottom: 100%;
 
 }
@@ -53,7 +52,7 @@
 }
 
 .calendar__date_highlight{
-    background-color: var(--bg-secondary-darken2);
+    background-color: var(--main-secondary-darken2);
 }
 
 .calendar__date:first-child {

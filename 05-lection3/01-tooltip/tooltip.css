@@ -1,5 +1,8 @@
 .tooltip {
     position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
 }
 
 .tooltip:hover .tooltip__body {
@@ -11,8 +14,6 @@
 }
 
 .tooltip__anchor {
-    width: 24px;
-    height: 24px;
     cursor: pointer;
 }
 
@@ -27,12 +28,11 @@
     transform: translate(-50%, -10px);
     background-color: var(--accent-primary);
     border-radius: 10px;
-    color: var(--bg-secondary-darken2);
+    color: var(--main-secondary-darken2);
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 .tooltip__body:before {

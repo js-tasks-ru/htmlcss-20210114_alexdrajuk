@@ -9,7 +9,7 @@
     padding: 33px 40px;
     background-color: var(--main);
     border-radius: 8px;
-    color: var(--bg-secondary-darken4);
+    color: var(--main-secondary-darken4);
 }
 
 .modal__title {
@@ -35,5 +35,5 @@
 }
 
 .modal__close-icon {
-    fill: var(--bg-secondary-darken4)
+    fill: var(--main-secondary-darken4)
 }

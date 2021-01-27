@@ -10,9 +10,10 @@
     
     --accent-text-primary: #D84910;
 
-    --bg-secondary: #F8F9FA;
-    --bg-secondary-darken1: #F9FAFC;
-    --bg-secondary-darken2: #DDE2E5;
-    --bg-secondary-darken3: #ACB5BD;
-    --bg-secondary-darken4: #495057;
+    --main-secondary: #F8F9FA;
+    --main-secondary-darken1: #F9FAFC;
+    --main-secondary-darken2: #DDE2E5;
+    --main-secondary-darken3: #ACB5BD;
+    --main-secondary-darken4: #495057;
+
 }

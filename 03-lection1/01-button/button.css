@@ -52,8 +52,8 @@
 
 .button_alternate {
     background-color: var(--main);
-    color: var(--bg-secondary-darken4);
-    border: 1px solid var(--bg-secondary-darken3);
+    color: var(--main-secondary-darken4);
+    border: 1px solid var(--main-secondary-darken3);
     transition: border-color 200ms ease-in-out;
 }
 

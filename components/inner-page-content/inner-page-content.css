@@ -1,0 +1,5 @@
+.inner-page-content {
+    background-color: var(--main);
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+}

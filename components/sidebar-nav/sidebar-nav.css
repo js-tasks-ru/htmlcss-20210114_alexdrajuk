@@ -1,0 +1,40 @@
+.sidebar-nav {
+    width: 230px;
+}
+
+.sidebar-nav__title {
+    color: var(--dark-primary);
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.sidebar-nav__item {
+    margin-bottom: 4px;
+}
+
+.sidebar-nav__item_downed {
+    margin-top: 30px;
+}
+
+.sidebar-nav__link {
+    display: block;
+    text-decoration: none;
+    color: var(--dark-primary);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sidebar-nav__link:hover {
+    color: var(--accent-text-primary);
+}
+
+.sidebar-nav__link_active {
+    color: var(--accent-text-primary);
+}
+
+.sidebar-nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

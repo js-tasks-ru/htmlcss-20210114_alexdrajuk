@@ -1,0 +1,7 @@
+.accordion-wrapper__item {
+    margin-bottom: 8px;
+}
+
+.accordion-wrapper__item:last-child {
+    margin-bottom: 0;
+}

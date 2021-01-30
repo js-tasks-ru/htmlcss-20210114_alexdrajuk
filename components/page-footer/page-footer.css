@@ -1,8 +1,8 @@
 .page-footer {
     padding: 38px 160px;
-    background-color: #fff;
+    background-color: var(--main);
     text-align: center;
-    color: #212429;
+    color: var(--dark-primary);
 }
 
 .page-footer__title {

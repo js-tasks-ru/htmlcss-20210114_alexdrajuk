@@ -1,0 +1,19 @@
+:root {
+    --main: #fff;
+    --dark-primary: #212429;
+
+    --accent-primary: #4263EB;
+    --accent-primary-darken1: #2342C0;
+    
+    --accent-secondary: #7048E8;
+    --accent-secondary-darken1: #5028C6;
+    
+    --accent-text-primary: #D84910;
+
+    --main-secondary: #F8F9FA;
+    --main-secondary-darken1: #F9FAFC;
+    --main-secondary-darken2: #DDE2E5;
+    --main-secondary-darken3: #ACB5BD;
+    --main-secondary-darken4: #495057;
+
+}

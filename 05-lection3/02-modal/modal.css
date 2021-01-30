@@ -1,0 +1,39 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    max-width: 428px;
+    padding: 33px 40px;
+    background-color: var(--main);
+    border-radius: 8px;
+    color: var(--main-secondary-darken4);
+}
+
+.modal__title {
+    margin: 0 0 14px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark-primary);
+}
+
+.modal__text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.modal__close-anchor {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.modal__close-icon {
+    fill: var(--main-secondary-darken4)
+}

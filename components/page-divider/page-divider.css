@@ -1,6 +1,6 @@
 .page-divider {
     margin: 0;
     height: 1px;
-    background-color: #DDE2E5;
+    background-color: var(--main-secondary-darken2);
     border-style: none;
 }

@@ -1,7 +1,0 @@
-.wrapper__item {
-    margin-bottom: 8px;
-}
-
-.wrapper__item:last-child {
-    margin-bottom: 0;
-}

@@ -2,9 +2,9 @@
 .accordion {
     box-sizing: border-box;
     padding: 24px 32px;
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--main-secondary-darken3);
     border-radius: 8px;
-    background: #fff;
+    background: var(--main);
     font-size: 16px;
     line-height: 1.5;
 }
@@ -19,10 +19,10 @@
 
 .accordion__summary {
     display: block;
-    color: #212429;
+    color: var(--dark-primary);
     list-style-type: none; /* To hide details-marker in Firefox */
 }
 
 .accordion__body {
-    color: #495057;
+    color: var(--dark-primary);
 }

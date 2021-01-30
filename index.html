@@ -3,17 +3,83 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
-        <link rel="stylesheet" href="./components/page/page-header.css">
-        <link rel="stylesheet" href="./components/page/page-content.css">
-        <link rel="stylesheet" href="./components/page/page-divider.css">
-        <link rel="stylesheet" href="./components/page/page-footer.css">
+        <link rel="stylesheet" href="./components/container/container.css">
+        <link rel="stylesheet" href="./components/cards-wrapper/cards-wrapper.css">
+        <link rel="stylesheet" href="./components/page-header/page-header.css">
+        <link rel="stylesheet" href="./components/page-content/page-content.css">
+        <link rel="stylesheet" href="./components/page-divider/page-divider.css">
+        <link rel="stylesheet" href="./components/page-footer/page-footer.css">
+        <link rel="stylesheet" href="./components/card/card.css">
+        <link rel="stylesheet" href="./04-lection2/01-histogram/histogram.css">
     </head>
     <body class="page">
         <header class="page-header">
-            <h1 class="page-header__title">Reusable component library </h1>
+            <div class="container">
+                <h1 class="page-header__title">Reusable component library </h1>
+            </div>
         </header>
         <hr class="page-divider">
-        <main class="page-content"></main>
+        <main class="page-content">
+            <div class="container">
+                <div class="cards-wrapper">
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__title">Tooltip</div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__body"> </div>
+                        <div class="card__title">Custom form elements</div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__title">Calendar</div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__title">Modal dialog</div>
+                    </a>
+                    <a href="./04-lection2/01-histogram/index.html" class="card">
+                        <div class="card__body">
+                            <div class="histogram">
+                                <div class="histogram__header">
+                                    <div class="histogram__info">
+                                        <div class="histogram__title">Total orders</div>
+                                        <div class="histogram__total">50254</div>
+                                    </div>
+                                    <!-- Ссылка не может быть внутри ссылки  -->
+                                    <!-- <a href="#" class="histogram__more">View all</a> -->
+                                </div>
+                                <div class="histogram__bars histogram__bars_preview">
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 10%;"></div>
+                                    <div class="histogram__bar" style="height: 45%;"></div>
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 80%;"></div>
+                                    <div class="histogram__bar" style="height: 10%;"></div>
+                                    <div class="histogram__bar" style="height: 30%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 75%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                    <div class="histogram__bar" style="height: 80%;"></div>
+                                    <div class="histogram__bar" style="height: 10%;"></div>
+                                    <div class="histogram__bar" style="height: 30%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 75%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__title">Histogram</div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__title">Avatar</div>
+                    </a>
+                </div>
+            </div>
+        </main>
         <div class="page-divider"></div>
         <footer class="page-footer">
             <h2 class="page-footer__title">About</h2>

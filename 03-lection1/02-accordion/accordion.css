@@ -18,9 +18,22 @@
 }
 
 .accordion__summary {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--dark-primary);
     list-style-type: none; /* To hide details-marker in Firefox */
+}
+
+.accordion__toggle {
+    width: 16px;
+    height: 8px;
+    cursor: pointer;
+    transition: transform 100ms;
+}
+
+.accordion[open] .accordion__toggle {
+    transform: rotate(180deg);
 }
 
 .accordion__body {

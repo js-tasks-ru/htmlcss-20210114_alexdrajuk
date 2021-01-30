@@ -10,7 +10,7 @@
 }
 
 .tooltip__icon {
-    fill: var(--dark-primary);
+    color: var(--dark-primary);
 }
 
 .tooltip__anchor {

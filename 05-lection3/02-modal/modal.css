@@ -35,5 +35,5 @@
 }
 
 .modal__close-icon {
-    fill: var(--main-secondary-darken4)
+    color: var(--main-secondary-darken4)
 }

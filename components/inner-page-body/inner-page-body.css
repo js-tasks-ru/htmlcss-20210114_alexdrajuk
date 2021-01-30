@@ -1,7 +1,0 @@
-
-.inner-page-body {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    width: 100%;
-    max-width: 1110px;
-}

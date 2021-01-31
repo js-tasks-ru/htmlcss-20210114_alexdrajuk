@@ -4,5 +4,11 @@
     justify-content: space-between;
     max-width: 1110px;
     margin: 0 auto;
-    padding: 67px 0 175px;
+    padding: 22px 16px 55px;
+}
+
+@media screen and (min-width: 1024px) {
+    .cards-wrapper {
+        padding: 67px 0 175px;
+    }
 }

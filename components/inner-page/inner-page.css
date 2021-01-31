@@ -5,27 +5,16 @@
     background-color: var(--main-secondary-darken1);
 }
 
-.inner-page__header {
-    height: 82px;
-    background-color: var(--main);
-}
-
 .inner-page__body {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto;
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-    padding: 36px 0;
-}
-
-.inner-page__sidebar-wrapper {
-    padding-right: 56px;
 }
 
 .inner-page__content {
     background-color: var(--main);
-    border-radius: 12px;
     box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
 }
 
@@ -38,4 +27,16 @@
     font-size: 12px;
     line-height: 1.5;
     color: var(--main-secondary-darken3);
+}
+
+
+@media screen and (min-width: 1024px) {
+    .inner-page__body {
+        grid-template-columns: auto 1fr;
+        padding: 36px 0;
+    }
+    .inner-page__content {
+        border-radius: 12px;
+    }
+
 }

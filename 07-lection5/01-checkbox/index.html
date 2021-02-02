@@ -4,8 +4,40 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
+        <style>
+            .checkbox {
+                margin-bottom: 5px;
+            }
+        </style>
     </head>
     <body>
-
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__control" name="languge" value="english" checked>
+            <div class="checkbox__state">
+                <svg class="checkbox__icon">
+                    <use xlink:href="#svg-sprite__check">
+                </svg>
+            </div>
+            <div class="checkbox__label">English</div>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__control" name="languge" value="russian">
+            <div class="checkbox__state">
+                <svg class="checkbox__icon">
+                    <use xlink:href="#svg-sprite__check">
+                </svg>
+            </div>
+            <div class="checkbox__label">Russian</div>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__control" name="languge" value="chinese" disabled>
+            <div class="checkbox__state">
+                <svg class="checkbox__icon">
+                    <use xlink:href="#svg-sprite__check">
+                </svg>
+            </div>
+            <div class="checkbox__label">Chinese</div>
+        </label>
+        <script src="../../scripts/svg-sprite.js"></script>
     </body>
 </html>

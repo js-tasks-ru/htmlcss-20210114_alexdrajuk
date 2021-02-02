@@ -4,10 +4,9 @@
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
         <link rel="stylesheet" href="./components/container/container.css">
-        <link rel="stylesheet" href="./components/cards-wrapper/cards-wrapper.css">
         <link rel="stylesheet" href="./components/page-header/page-header.css">
         <link rel="stylesheet" href="./components/top-header/top-header.css">
-        <link rel="stylesheet" href="./components/page-content/page-content.css">
+        <link rel="stylesheet" href="./components/tabs/tabs.css">
         <link rel="stylesheet" href="./components/page-divider/page-divider.css">
         <link rel="stylesheet" href="./components/page-footer/page-footer.css">
         <link rel="stylesheet" href="./components/card/card.css">
@@ -29,10 +28,25 @@
             </div>
         </header>
         
-        <hr class="page-divider">
-        <main class="page-content">
-            <div class="container">
-                <div class="cards-wrapper">
+        <main class="tabs">
+            <input class="tabs__radio" type="radio" name="tabs" id="tab-1" checked>
+            <input class="tabs__radio" type="radio" name="tabs" id="tab-2">
+            <input class="tabs__radio" type="radio" name="tabs" id="tab-3">
+            <ul class="container tabs__nav">
+                <li class="tabs__label-wrapper">
+                    <label class="tabs__label" for="tab-1">All components</label>
+                </li>
+                <li class="tabs__label-wrapper">
+                    <label class="tabs__label" for="tab-2">Simple components</label>
+                </li>
+                <li class="tabs__label-wrapper">
+                    <label class="tabs__label" for="tab-3">Complex componens</label>
+                </li>
+            </ul>
+            <hr class="page-divider">
+            <div class="tabs__content">
+                <!-- Tab 1 -->
+                <div class="container tabs__tab" data-tab="tab-1">
                     <a href="#" class="card">
                         <div class="card__body"></div>
                         <div class="card__footer">
@@ -98,6 +112,67 @@
                         <div class="card__body"></div>
                         <div class="card__footer">
                             <div class="card__title">Avatar</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Tab 2 -->
+                <div class="container tabs__tab tabs__tab_better-align" data-tab="tab-2">
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__footer">
+                            <div class="card__title">Tooltip</div>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__footer">
+                            <div class="card__title">Avatar</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Tab 3 -->
+                <div class="container tabs__tab tabs__tab_better-align" data-tab="tab-3">
+                    <a href="#" class="card">
+                        <div class="card__body"></div>
+                        <div class="card__footer">
+                            <div class="card__title">Calendar</div>
+                        </div>
+                    </a>
+                    <a href="./04-lection2/01-histogram/index.html" class="card">
+                        <div class="card__body">
+                            <div class="histogram">
+                                <div class="histogram__header">
+                                    <div class="histogram__info">
+                                        <div class="histogram__title">Total orders</div>
+                                        <div class="histogram__total">50254</div>
+                                    </div>
+                                    <!-- Ссылка не может быть внутри ссылки  -->
+                                    <!-- <a href="#" class="histogram__more">View all</a> -->
+                                </div>
+                                <div class="histogram__bars histogram__bars_preview">
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 10%;"></div>
+                                    <div class="histogram__bar" style="height: 45%;"></div>
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 80%;"></div>
+                                    <div class="histogram__bar" style="height: 10%;"></div>
+                                    <div class="histogram__bar" style="height: 30%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 75%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                    <div class="histogram__bar" style="height: 80%;"></div>
+                                    <div class="histogram__bar" style="height: 10%;"></div>
+                                    <div class="histogram__bar" style="height: 30%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                    <div class="histogram__bar" style="height: 50%;"></div>
+                                    <div class="histogram__bar" style="height: 75%;"></div>
+                                    <div class="histogram__bar" style="height: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <div class="card__title">Histogram</div>
                         </div>
                     </a>
                 </div>

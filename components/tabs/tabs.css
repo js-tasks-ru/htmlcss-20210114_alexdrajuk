@@ -1,0 +1,83 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.tabs__nav {
+    display: flex;
+    padding-left: 16px;
+    list-style: none;
+    overflow-x: scroll;
+}
+
+.tabs__label-wrapper {
+    margin-right: 40px;
+}
+
+.tabs__label {
+    box-sizing: border-box;
+    display: block;
+    padding-bottom: 8px;
+    border-bottom: 5px solid var(--main);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-secondary-darken3);
+    white-space: nowrap;
+}
+
+.tabs__radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tabs__radio[id="tab-1"]:checked ~ .tabs__nav .tabs__label[for="tab-1"],
+.tabs__radio[id="tab-2"]:checked ~ .tabs__nav .tabs__label[for="tab-2"],
+.tabs__radio[id="tab-3"]:checked ~ .tabs__nav .tabs__label[for="tab-3"] {
+    color: var(--dark-primary);
+    border-bottom-color: var(--dark-primary);
+}
+
+.tabs__radio[id="tab-1"]:checked ~ .tabs__content .tabs__tab[data-tab="tab-1"],
+.tabs__radio[id="tab-2"]:checked ~ .tabs__content .tabs__tab[data-tab="tab-2"],
+.tabs__radio[id="tab-3"]:checked ~ .tabs__content .tabs__tab[data-tab="tab-3"] {
+    display: flex;
+}
+
+.tabs__label:hover {
+    color: var(--dark-primary);
+    border-bottom-color: var(--dark-primary);
+}
+
+.tabs__content {
+    background-color: var(--main-secondary-darken1);
+}
+
+.tabs__tab {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 22px 16px 55px;
+}
+
+.tabs__tab_better-align {
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+    .tabs__nav {
+        display: flex;
+        padding: 0;
+        list-style: none;
+        overflow-x: scroll;
+    }
+
+    .tabs__tab {
+        padding: 67px 0 175px;
+    }
+}

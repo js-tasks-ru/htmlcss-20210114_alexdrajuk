@@ -26,6 +26,14 @@
             <symbol id="svg-sprite__check" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1.5 7.5L5 11L13 2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
             </symbol>
+            <symbol id="svg-sprite__success" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.663 3.773A9 9 0 1021 12v-.919a1 1 0 112 0V12A11.002 11.002 0 018.188 22.313a11 11 0 118.289-20.366 1 1 0 11-.814 1.826z" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.707 3.293a1 1 0 010 1.414l-10 10.01a1 1 0 01-1.414 0l-3-3a1 1 0 111.414-1.414L12 12.595l9.293-9.302a1 1 0 011.414 0z" />
+            </symbol>
+            <symbol id="svg-sprite__error" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.528 2.283a3 3 0 014.037 1.058l.003.005 8.47 14.14.008.014a3 3 0 01-2.565 4.5H3.519a3 3 0 01-2.565-4.5l.008-.014 8.47-14.14.858.514-.855-.519a3 3 0 011.093-1.058zm.618 2.094L2.683 18.506A1 1 0 003.536 20h16.928a1 1 0 00.853-1.494L12.855 4.379l-.001-.002a1 1 0 00-1.708 0z" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 8a1 1 0 011 1v4a1 1 0 11-2 0V9a1 1 0 011-1zM12 15a1 1 0 011 1v.5a1 1 0 11-2 0V16a1 1 0 011-1z" />
+            </symbol>
         </defs>
     </svg>
     `;
@@ -35,4 +43,3 @@
     const body = document.querySelector('body');
     body.insertBefore(template.content.firstChild, body.firstElementChild);
 })();
-

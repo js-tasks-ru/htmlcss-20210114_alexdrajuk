@@ -4,8 +4,33 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
+        <style>
+            .toggler {
+                margin-bottom: 5px;
+            }
+        </style>
     </head>
     <body>
-
+        <label class="toggler">
+            <input class="toggler__control" type="checkbox" name="language" value="english" checked>
+            <div class="toggler__state">
+                <div class="toggler__dot"></div>
+            </div>
+            <div class="toggler__label">English</div>
+        </label>
+        <label class="toggler">
+            <input class="toggler__control" type="checkbox" name="language" value="russian">
+            <div class="toggler__state">
+                <div class="toggler__dot"></div>
+            </div>
+            <div class="toggler__label">Russian</div>
+        </label>
+        <label class="toggler">
+            <input class="toggler__control" type="checkbox" name="language" value="chinese" disabled>
+            <div class="toggler__state">
+                <div class="toggler__dot"></div>
+            </div>
+            <div class="toggler__label">Chinese</div>
+        </label>
     </body>
 </html>

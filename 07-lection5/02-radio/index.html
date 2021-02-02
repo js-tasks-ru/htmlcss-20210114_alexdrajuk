@@ -4,8 +4,33 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            .radio {
+                margin-bottom: 5px;
+            }
+        </style>
     </head>
     <body>
-
+        <label class="radio">
+            <input class="radio__control" type="radio" name="language" value="english" checked>
+            <div class="radio__state">
+                <div class="radio__dot"></div>
+            </div>
+            <div class="radio__label">English</div>
+        </label>
+        <label class="radio">
+            <input class="radio__control" type="radio" name="language" value="russian">
+            <div class="radio__state">
+                <div class="radio__dot"></div>
+            </div>
+            <div class="radio__label">Russian</div>
+        </label>
+        <label class="radio">
+            <input class="radio__control" type="radio" name="language" value="chinese" disabled>
+            <div class="radio__state">
+                <div class="radio__dot"></div>
+            </div>
+            <div class="radio__label">Chinese</div>
+        </label>
     </body>
 </html>

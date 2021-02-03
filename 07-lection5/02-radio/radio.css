@@ -21,6 +21,7 @@
     border: 1px solid var(--main-secondary-darken2);
     border-radius: 50%;
     background-color: var(--main);
+    cursor: pointer;
 }
 
 .radio__dot {
@@ -32,20 +33,18 @@
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-secondary-darken4);
-}
-
-
-.radio__control:hover:enabled ~ .radio__state {
     cursor: pointer;
 }
 
 .radio__control:disabled ~ .radio__state {
     background-color: var(--main-secondary-darken2);
-    border-color: var(--main-secondary-darken2)
+    border-color: var(--main-secondary-darken2);
+    cursor: default;
 }
 
 .radio__control:disabled ~ .radio__label {
     color: var(--main-secondary-darken2);
+    cursor: default;
 }
 
 .radio__control:focus ~ .radio__label {

@@ -3,6 +3,7 @@
 }
 
 .input__label {
+    display: block;
     padding-bottom: 5px;
     font-weight: 500;
     font-size: 12px;
@@ -12,7 +13,7 @@
     color: var(--main-secondary-darken3);
 }
 
-.input__state {
+.input__icons {
     position: relative;
 }
 
@@ -34,19 +35,19 @@
     color: var(--accent-error);
 }
 
-.input__state_success .input__icon_success {
+.input_state-success .input__icon_success {
     display: block;
 }
 
-.input__state_error ~ .input__field {
+.input_state-error .input__field {
     border-color: var(--accent-error);
 }
 
-.input__state_error ~ .input__field:focus {
+.input_state-error .input__field:focus {
     border-color: var(--accent-error);
 }
 
-.input__state_error .input__icon_error {
+.input_state-error .input__icon_error {
     display: block;
     color: var(--accent-error);
 }

@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--main);
+    cursor: pointer;
 }
 
 .checkbox__icon {
@@ -32,6 +33,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-secondary-darken4);
+    cursor: pointer;
 }
 
 
@@ -47,17 +49,15 @@
     color: var(--main);
 }
 
-.checkbox__control:hover:enabled ~ .checkbox__state {
-    cursor: pointer;
-}
-
 .checkbox__control:disabled ~ .checkbox__state {
     background-color: var(--main-secondary-darken2);
-    border-color: var(--main-secondary-darken2)
+    border-color: var(--main-secondary-darken2);
+    cursor: default;
 }
 
 .checkbox__control:disabled ~ .checkbox__label {
     color: var(--main-secondary-darken2);
+    cursor: default;
 }
 
 .checkbox__control:focus ~ .checkbox__label {

@@ -21,15 +21,13 @@
     border: 1px solid var(--main-secondary-darken2);
     border-radius: 16px;
     background-color: var(--main);
-}
-
-.toggler__control:hover:enabled ~ .toggler__state {
     cursor: pointer;
 }
 
 .toggler__control:disabled ~ .toggler__state {
     background-color: var(--main-secondary-darken2);
-    border-color: var(--main-secondary-darken2)
+    border-color: var(--main-secondary-darken2);
+    cursor: default;
 }
 
 .toggler__control:disabled ~ .toggler__state .toggler__dot {
@@ -38,6 +36,7 @@
 
 .toggler__control:disabled ~ .toggler__label {
     color: var(--main-secondary-darken2);
+    cursor: default;
 }
 
 .toggler__control:focus ~ .toggler__label {
@@ -56,14 +55,15 @@
 
 .toggler__label {
     padding-left: 12px;
+    cursor: pointer;
 }
 
-.toggler__control:checked ~ .toggler__state {
+.toggler__control:enabled:checked ~ .toggler__state {
     border-color: var(--accent-primary);
     background-color: var(--accent-primary);
 }
 
-.toggler__control:checked ~ .toggler__state .toggler__dot {
+.toggler__control:enabled:checked ~ .toggler__state .toggler__dot {
     left: 24px;
     background-color: var(--main);
 }

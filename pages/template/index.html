@@ -5,44 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="../../components/sidebar-nav/sidebar-nav.css">
+    <link rel="stylesheet" href="../../components/container/container.css">
+    <link rel="stylesheet" href="../../components/top-header/top-header.css">
     <link rel="stylesheet" href="../../components/inner-page/inner-page.css">
     <title>Template</title>
 </head>
 <body class="all-viewport-height">
     <div class="inner-page">
-        <header class="inner-page__header"></header>
-        <div class="inner-page__body">
-            <div class="inner-page__sidebar-wrapper">
-                <div class="sidebar-nav">
-                    <div class="sidebar-nav__title">Components</div>
-                    <ul class="sidebar-nav__list">
-                        <li class="sidebar-nav__item">
-                            <a href="#" class="sidebar-nav__link">Modal</a>
-                        </li>
-                        <li class="sidebar-nav__item">
-                            <a href="#" class="sidebar-nav__link">Tooltip</a>
-                        </li>
-                        <li class="sidebar-nav__item">
-                            <a href="#" class="sidebar-nav__link">Avatar</a>
-                        </li>
-                        <li class="sidebar-nav__item">
-                            <a href="#" class="sidebar-nav__link">Calendar</a>
-                        </li>
-                        <li class="sidebar-nav__item">
-                            <a href="#" class="sidebar-nav__link">Histogram</a>
-                        </li>
-                        <li class="sidebar-nav__item">
-                            <a href="#" class="sidebar-nav__link">Custom form elements</a>
-                        </li>
-                        <li class="sidebar-nav__item sidebar-nav__item_downed">
-                            <a href="#" class="sidebar-nav__link">Main Page</a>
-                        </li>
-                    </ul>
+        <header class="inner-page__header">
+            <div class="container">
+                <div class="top-header">
+                    <div class="top-header__logo-wrapper">
+                        <a class="top-header__logo-link" href="#">
+                            <svg class="top-header__logo-icon" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#svg-sprite__logo">
+                            </svg>
+                        </a>
+                    </div>
                 </div>
+            </div>
+        </header>
+        <div class="inner-page__body">
+            <div class="sidebar-nav">
+                <div class="sidebar-nav__title">Components</div>
+                <ul class="sidebar-nav__list">
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">Modal</a>
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">Tooltip</a>
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">Avatar</a>
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">Calendar</a>
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">Histogram</a>
+                    </li>
+                    <li class="sidebar-nav__item">
+                        <a href="#" class="sidebar-nav__link">Custom form elements</a>
+                    </li>
+                    <li class="sidebar-nav__item sidebar-nav__item_downed">
+                        <a href="#" class="sidebar-nav__link">Main Page</a>
+                    </li>
+                </ul>
             </div>
             <div class="inner-page__content"></div>
         </div>
         <footer class="inner-page__footer">Reusable component library</footer>
     </div>
+    <script src="../../scripts/svg-sprite.js"></script>
 </body>
 </html>

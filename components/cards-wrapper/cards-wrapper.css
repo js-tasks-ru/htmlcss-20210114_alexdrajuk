@@ -1,8 +1,0 @@
-.cards-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1110px;
-    margin: 0 auto;
-    padding: 67px 0 175px;
-}

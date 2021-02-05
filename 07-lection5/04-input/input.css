@@ -1,0 +1,79 @@
+.input {
+    display: block;
+}
+
+.input__label {
+    display: block;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--main-secondary-darken3);
+}
+
+.input__icons {
+    position: relative;
+}
+
+.input__icon {
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 19px;
+    right: 19px;
+}
+
+.input__icon_success {
+    color: var(--accent-primary-darken1);
+}
+
+.input__icon_error {
+    color: var(--accent-error);
+}
+
+.input_state-success .input__icon_success {
+    display: block;
+}
+
+.input_state-error .input__field {
+    border-color: var(--accent-error);
+}
+
+.input_state-error .input__field:focus {
+    border-color: var(--accent-error);
+}
+
+.input_state-error .input__icon_error {
+    display: block;
+    color: var(--accent-error);
+}
+
+.input__field {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 25px;
+    border: 1px solid var(--main-secondary-darken2);
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--main-secondary-darken4);
+}
+
+.input__field:focus {
+    outline: none;
+    border-color: var(--accent-primary-darken1);
+}
+
+.input__field::placeholder {
+    color: var(--main-secondary-darken3)
+}
+
+.input__field:disabled {
+    cursor: default;
+    color: var(--main-secondary-darken2);
+    background-color: var(--main);
+}

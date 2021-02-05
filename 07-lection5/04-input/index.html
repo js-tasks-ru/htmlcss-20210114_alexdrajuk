@@ -4,8 +4,62 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
+        <style>
+            .input {
+                width: 300px;
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
-
+        <label class="input">
+            <span class="input__label">Label</span>
+            <div class="input__icons">
+                <svg class="input__icon input__icon_success">
+                    <use xlink:href="#svg-sprite__success">
+                </svg>
+                <svg class="input__icon input__icon_error">
+                    <use xlink:href="#svg-sprite__error">
+                </svg>
+            </div>
+            <input class="input__field" type="text" name="lastname" placeholder="placeholder">
+        </label>
+        <label class="input input_state-success">
+            <span class="input__label">Label</span>
+            <div class="input__icons">
+                <svg class="input__icon input__icon_success">
+                    <use xlink:href="#svg-sprite__success">
+                </svg>
+                <svg class="input__icon input__icon_error">
+                    <use xlink:href="#svg-sprite__error">
+                </svg>
+            </div>
+            <input class="input__field" type="text" name="lastname" placeholder="placeholder">
+        </label>
+        <label class="input input_state-error">
+            <span class="input__label">Label</span>
+            <div class="input__icons">
+                <svg class="input__icon input__icon_success">
+                    <use xlink:href="#svg-sprite__success">
+                </svg>
+                <svg class="input__icon input__icon_error">
+                    <use xlink:href="#svg-sprite__error">
+                </svg>
+            </div>
+            <input class="input__field" type="text" name="lastname" placeholder="placeholder">
+        </label>
+        <label class="input">
+            <span class="input__label">Label</span>
+            <div class="input__icons">
+                <svg class="input__icon input__icon_success">
+                    <use xlink:href="#svg-sprite__success">
+                </svg>
+                <svg class="input__icon input__icon_error">
+                    <use xlink:href="#svg-sprite__error">
+                </svg>
+            </div>
+            <input class="input__field" type="text" name="lastname" placeholder="placeholder" disabled>
+        </label>
+        <script src="../../scripts/svg-sprite.js"></script>
     </body>
 </html>
